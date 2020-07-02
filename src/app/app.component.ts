@@ -32,7 +32,8 @@ export class AppComponent  {
     return this.bytes < 10;
   }
 
-  startClicker() {
+  addByteClicker() {
+    this.kilos -= 1;
     this.byteClickerValue += 1;
   }
 }

@@ -11,6 +11,6 @@
   Make kilo
 </button>
 
-<button (click)="startClicker()">
-  Start clicker
+<button [disabled]="kilos < 1" (click)="addByteClicker()">
+  Add byte clicker (cost 1K)
 </button>
