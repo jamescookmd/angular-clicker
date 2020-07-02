@@ -1,0 +1,16 @@
+<p>Hello clicker</p>
+<p>{{ bytes }} bytes</p>
+<p>{{ kilos }} kilos</p>
+<p>{{ megas }} megas</p>
+
+<button (click)="makeByte()">
+    Make byte
+</button>
+
+<button [disabled]="bytes < 10" (click)="makeKilo()">
+  Make kilo
+</button>
+
+<button (click)="startClicker()">
+  Start clicker
+</button>
